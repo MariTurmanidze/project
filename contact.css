@@ -1,0 +1,96 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+}
+.container p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #484848;
+    letter-spacing: 1px;
+}
+.input, .msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+
+
+}
+.log in .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.msg .area {
+    height: 200px;
+}
+
+.btn {
+    width: 250px;
+    background: #484848;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 60%;
+    padding-right: -50%;
+
+}
+.nav_container{
+    width: 500px;
+}
+.list_container{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color:black
+    font-weight: bold;
+    margin-top: -5%;
+    
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: red;
+    transition: 2s;
+}
+
+.input:focus,
+.msg .area:focus {
+    border: 2px solid #484848;
+}
+    
