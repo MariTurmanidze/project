@@ -6,4 +6,4 @@
  const errorNodes = document.querySelector(".error");
 
  //vali data
- function validataForm()
+ 
