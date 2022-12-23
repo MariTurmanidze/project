@@ -1,62 +1,6 @@
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 800px;
-    height: 600px;
-    background: #fff;
-    margin: 50px auto;
-    box-sizing: border-box;
-    padding: 40px;
-    box-shadow: 0 0 20px rgba(72,98,85, 0.6);
-}
-.container p {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: #484848;
-    letter-spacing: 1px;
-}
-.input, .msg .area {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 25px;
-    border: 2px solid #e9eaea;
-    font-size: 14px;
-    border-radius: 5px;
-    outline: none;
-
-
-}
-.log in .input{
-    width: 48%;
-    float: left;
-    margin-right: 4%;
-}
-
-.msg .area {
-    height: 200px;
-}
-
-.btn {
-    width: 250px;
-    background: #484848;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0 auto;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
+* 
 nav {
     display: flex;
     align-items: center;
@@ -89,8 +33,81 @@ nav ul li a:hover{
     transition: 2s;
 }
 
-.input:focus,
-.msg .area:focus {
-    border: 2px solid #484848;
+body {
+    background-image: url(/src/საკონტაქტო\ ინფორმაცია.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+form {
+    max-width: 550px;
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
 }
     
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+input[type="text"] :focus, textarea ::focus {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: aqua;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.error {
+    color: red;
+}
+
+.error-border {
+    border-bottom: 1px solid red;
+}
+
+#success {
+    color: aqua;
+}
